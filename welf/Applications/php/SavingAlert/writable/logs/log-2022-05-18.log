@@ -1,0 +1,84 @@
+CRITICAL - 2022-05-18 03:11:06 --> Undefined variable: request
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Donation.php(12): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Donation->index()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-18 03:23:21 --> syntax error, unexpected '}', expecting end of file
+#0 /home/welf/Applications/php/Welfarearo/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-18 03:25:32 --> Undefined property: App\Controllers\Donation::$db
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Donation.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Donation->index()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-18 03:28:19 --> Undefined property: App\Controllers\Donation::$db
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Donation.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Donation->index()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-18 03:28:52 --> Undefined variable: db
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Donation.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Donation->index()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-18 12:29:35 --> Undefined index: status
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->index()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-18 19:22:09 --> Undefined property: stdClass::$name
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Donation.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Donation->index()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-18 21:56:31 --> Undefined variable: db
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/ClaimDonation.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\ClaimDonation->index()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-18 21:57:31 --> Using $this when not in object context
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/ClaimDonation.php(21): front_user_id()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\ClaimDonation->index()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-18 22:19:33 --> syntax error, unexpected ',', expecting ']'
+#0 /home/welf/Applications/php/Welfarearo/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-18 22:22:11 --> Too few arguments to function get_donator_id(), 0 passed in /home/welf/Applications/php/Welfarearo/app/Controllers/ClaimDonation.php on line 29 and exactly 1 expected
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/ClaimDonation.php(29): get_donator_id()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\ClaimDonation->index()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-18 22:35:29 --> Undefined index: qty
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/ClaimDonation.php(17): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\ClaimDonation->index()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

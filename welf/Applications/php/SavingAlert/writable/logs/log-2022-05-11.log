@@ -1,0 +1,44 @@
+CRITICAL - 2022-05-11 15:17:07 --> move_uploaded_file(/home/toda//domain/todaicenter.com/backsys/Uploads/627c19c3f35da461.png): failed to open stream: No such file or directory
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/app/Controllers/SubmitDonation.php(31): move_uploaded_file()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\SubmitDonation->submit_donation()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-11 15:25:55 --> move_uploaded_file(/home/welf/domains/welfarearo/uploads627c1bd39b5b3966.png): failed to open stream: Permission denied
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/app/Controllers/SubmitDonation.php(31): move_uploaded_file()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\SubmitDonation->submit_donation()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-11 15:26:46 --> syntax error, unexpected '(', expecting variable (T_VARIABLE)
+#0 /home/welf/Applications/php/Welfarearo/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /home/welf/Applications/php/Welfarearo/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /home/welf/Applications/php/Welfarearo/system/Config/Factories.php(141): class_exists()
+#5 /home/welf/Applications/php/Welfarearo/system/Config/Factories.php(106): CodeIgniter\Config\Factories::locateClass()
+#6 /home/welf/Applications/php/Welfarearo/system/Common.php(780): CodeIgniter\Config\Factories::__callStatic()
+#7 /home/welf/Applications/php/Welfarearo/app/Controllers/SubmitDonation.php(40): model()
+#8 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\SubmitDonation->submit_donation()
+#9 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-05-11 20:43:31 --> Undefined index: status
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->index()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-11 20:44:32 --> Undefined index: status
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->index()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

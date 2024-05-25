@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="JAVA_MODULE" version="4">
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/Applications/php/SavingAlert" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Applications/php/SavingAlert/app" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Applications/php/SavingAlert/system" isTestSource="false" packagePrefix="CodeIgniter" />
+      <sourceFolder url="file://$MODULE_DIR$/Applications/php/SavingAlert/system/ThirdParty" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Applications/php/SavingAlert/system/ThirdParty" isTestSource="false" packagePrefix="Laminas" />
+      <sourceFolder url="file://$MODULE_DIR$/Applications/php/SavingAlert/tests/_support" isTestSource="false" packagePrefix="CodeIgniter" />
+      <sourceFolder url="file://$MODULE_DIR$/Applications/php/SavingAlert/tests/_support" isTestSource="false" packagePrefix="App" />
+      <sourceFolder url="file://$MODULE_DIR$/public/pp/libraries/classes" isTestSource="false" packagePrefix="PhpMyAdmin" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+  <component name="TemplatesService">
+    <option name="TEMPLATE_FOLDERS">
+      <list>
+        <option value="$MODULE_DIR$/public/pp/templates" />
+      </list>
+    </option>
+  </component>
+</module>
