@@ -1,0 +1,36 @@
+CRITICAL - 2022-04-15 10:01:05 --> Invalid file: listing.php
+#0 /home/welf/Applications/php/Welfarearo/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Listings.php(10): view()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Listings->index()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-15 10:01:19 --> Invalid file: listing.php
+#0 /home/welf/Applications/php/Welfarearo/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Listings.php(10): view()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Listings->index()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-15 10:01:30 --> Invalid file: listing.php
+#0 /home/welf/Applications/php/Welfarearo/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Listings.php(10): view()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Listings->index()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-15 10:06:03 --> Invalid file: listings.php
+#0 /home/welf/Applications/php/Welfarearo/system/View/View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile()
+#1 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Donations.php(10): view()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Donations->index()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

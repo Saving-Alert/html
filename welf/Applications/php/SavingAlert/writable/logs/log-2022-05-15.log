@@ -1,0 +1,55 @@
+CRITICAL - 2022-05-15 12:30:07 --> Undefined property: CodeIgniter\View\View::$db
+#0 /home/welf/Applications/php/Welfarearo/app/Views/donations.php(454): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/View/View.php(210): include('/home/welf/Appl...')
+#2 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/welf/Applications/php/Welfarearo/app/Controllers/Donations.php(10): view()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Donations->index()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-15 12:30:15 --> Undefined property: CodeIgniter\View\View::$db
+#0 /home/welf/Applications/php/Welfarearo/app/Views/donations.php(454): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/View/View.php(210): include('/home/welf/Appl...')
+#2 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/welf/Applications/php/Welfarearo/app/Controllers/Donations.php(10): view()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Donations->index()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-15 12:30:22 --> Undefined property: CodeIgniter\View\View::$db
+#0 /home/welf/Applications/php/Welfarearo/app/Views/donations.php(454): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/View/View.php(210): include('/home/welf/Appl...')
+#2 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/welf/Applications/php/Welfarearo/app/Controllers/Donations.php(10): view()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Donations->index()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-15 15:33:30 --> Undefined property: CodeIgniter\View\View::$db
+#0 /home/welf/Applications/php/Welfarearo/app/Views/donations.php(454): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/View/View.php(210): include('/home/welf/Appl...')
+#2 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/welf/Applications/php/Welfarearo/app/Controllers/Donations.php(10): view()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Donations->index()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-15 19:44:21 --> Undefined property: stdClass::$area1
+#0 /home/welf/Applications/php/Welfarearo/app/Views/donations.php(491): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/View/View.php(210): include('/home/welf/Appl...')
+#2 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/welf/Applications/php/Welfarearo/app/Controllers/Donations.php(10): view()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Donations->index()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

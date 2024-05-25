@@ -1,0 +1,7 @@
+CRITICAL - 2022-04-21 16:04:52 --> syntax error, unexpected '='
+#0 /home/welf/Applications/php/Welfarearo/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

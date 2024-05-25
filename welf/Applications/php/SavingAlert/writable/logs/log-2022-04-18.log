@@ -1,0 +1,196 @@
+CRITICAL - 2022-04-18 14:36:31 --> syntax error, unexpected ';'
+#0 /home/welf/Applications/php/Welfarearo/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+ERROR - 2022-04-18 15:15:01 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2022-04-18 15:15:01 --> Unknown column 'status' in 'where clause'
+#0 /home/welf/Applications/php/Welfarearo/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/welf/Applications/php/Welfarearo/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/welf/Applications/php/Welfarearo/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/welf/Applications/php/Welfarearo/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /home/welf/Applications/php/Welfarearo/app/Models/Login/FrontLoginModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/welf/Applications/php/Welfarearo/app/Controllers/Login/Login.php(33): App\Models\FrontLoginModel->login_validate()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Login\Login->index()
+#7 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-04-18 15:21:50 --> Unknown column 'status' in 'where clause'
+CRITICAL - 2022-04-18 15:21:50 --> Unknown column 'status' in 'where clause'
+#0 /home/welf/Applications/php/Welfarearo/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/welf/Applications/php/Welfarearo/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/welf/Applications/php/Welfarearo/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/welf/Applications/php/Welfarearo/system/Database/BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query()
+#4 /home/welf/Applications/php/Welfarearo/app/Models/Login/FrontLoginModel.php(18): CodeIgniter\Database\BaseBuilder->get()
+#5 /home/welf/Applications/php/Welfarearo/app/Controllers/Login/Login.php(34): App\Models\FrontLoginModel->login_validate()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Login\Login->index()
+#7 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-18 15:22:54 --> You must use the "set" method to update an entry.
+#0 /home/welf/Applications/php/Welfarearo/system/Database/BaseBuilder.php(1758): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 /home/welf/Applications/php/Welfarearo/app/Models/Login/FrontLoginModel.php(42): CodeIgniter\Database\BaseBuilder->insert()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Login/Login.php(34): App\Models\FrontLoginModel->login_validate()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Login\Login->index()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-18 15:24:40 --> You must use the "set" method to update an entry.
+#0 /home/welf/Applications/php/Welfarearo/system/Database/BaseBuilder.php(1758): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 /home/welf/Applications/php/Welfarearo/app/Models/Login/FrontLoginModel.php(44): CodeIgniter\Database\BaseBuilder->insert()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Login/Login.php(34): App\Models\FrontLoginModel->login_validate()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Login\Login->index()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-18 15:25:07 --> You must use the "set" method to update an entry.
+#0 /home/welf/Applications/php/Welfarearo/system/Database/BaseBuilder.php(1758): CodeIgniter\Database\BaseBuilder->validateInsert()
+#1 /home/welf/Applications/php/Welfarearo/app/Models/Login/FrontLoginModel.php(42): CodeIgniter\Database\BaseBuilder->insert()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Login/Login.php(34): App\Models\FrontLoginModel->login_validate()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Login\Login->index()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-18 16:16:19 --> Undefined variable: row
+#0 /home/welf/Applications/php/Welfarearo/app/Models/Login/FrontLoginModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/app/Controllers/Login/Login.php(34): App\Models\FrontLoginModel->login_validate()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Login\Login->index()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-18 16:17:04 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Login/Login.php(34): App\Models\FrontLoginModel->login_validate()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Login\Login->index()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-18 17:39:24 --> syntax error, unexpected ')'
+#0 /home/welf/Applications/php/Welfarearo/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /home/welf/Applications/php/Welfarearo/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /home/welf/Applications/php/Welfarearo/system/Config/Factories.php(141): class_exists()
+#5 /home/welf/Applications/php/Welfarearo/system/Config/Factories.php(106): CodeIgniter\Config\Factories::locateClass()
+#6 /home/welf/Applications/php/Welfarearo/system/Common.php(780): CodeIgniter\Config\Factories::__callStatic()
+#7 /home/welf/Applications/php/Welfarearo/app/Controllers/Login/Login.php(32): model()
+#8 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Login\Login->index()
+#9 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-18 17:39:50 --> Undefined index: login
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Login/Login.php(38): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Login\Login->index()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-18 17:57:34 --> Undefined index: front_logged_in
+#0 /home/welf/Applications/php/Welfarearo/app/Views/login/verify.php(4): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/View/View.php(210): include('/home/welf/Appl...')
+#2 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/welf/Applications/php/Welfarearo/app/Controllers/Login/Login.php(44): view()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Login\Login->index()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-18 18:05:23 --> require(scripts/login_jax): failed to open stream: No such file or directory
+#0 /home/welf/Applications/php/Welfarearo/app/Views/footer.php(253): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/app/Views/footer.php(253): require()
+#2 /home/welf/Applications/php/Welfarearo/system/View/View.php(210): include('/home/welf/Appl...')
+#3 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /home/welf/Applications/php/Welfarearo/app/Controllers/Home.php(11): view()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#7 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-18 18:05:47 --> require(scripts/login_jax): failed to open stream: No such file or directory
+#0 /home/welf/Applications/php/Welfarearo/app/Views/footer.php(253): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/app/Views/footer.php(253): require()
+#2 /home/welf/Applications/php/Welfarearo/system/View/View.php(210): include('/home/welf/Appl...')
+#3 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /home/welf/Applications/php/Welfarearo/app/Controllers/Home.php(11): view()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Home->index()
+#7 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-04-18 18:54:57 --> Undefined index: front_logged_in
+#0 /home/welf/Applications/php/Welfarearo/app/Views/login/verify.php(6): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/View/View.php(210): include('/home/welf/Appl...')
+#2 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/welf/Applications/php/Welfarearo/app/Controllers/Login/Login.php(48): view()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Login\Login->index()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-18 19:09:13 -->  route cannot be found while reverse-routing.
+#0 /home/welf/Applications/php/Welfarearo/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /home/welf/Applications/php/Welfarearo/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Login/Login.php(47): redirect()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Login\Login->index()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-18 19:09:25 -->  route cannot be found while reverse-routing.
+#0 /home/welf/Applications/php/Welfarearo/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /home/welf/Applications/php/Welfarearo/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Login/Login.php(47): redirect()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Login\Login->index()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-18 19:10:37 -->  route cannot be found while reverse-routing.
+#0 /home/welf/Applications/php/Welfarearo/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /home/welf/Applications/php/Welfarearo/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Login/Login.php(47): redirect()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Login\Login->index()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-18 19:13:06 -->  route cannot be found while reverse-routing.
+#0 /home/welf/Applications/php/Welfarearo/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /home/welf/Applications/php/Welfarearo/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Login/Login.php(47): redirect()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Login\Login->index()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-18 19:14:38 -->  route cannot be found while reverse-routing.
+#0 /home/welf/Applications/php/Welfarearo/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /home/welf/Applications/php/Welfarearo/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Login/Login.php(47): redirect()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Login\Login->index()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-18 19:16:27 -->  route cannot be found while reverse-routing.
+#0 /home/welf/Applications/php/Welfarearo/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /home/welf/Applications/php/Welfarearo/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Login/Login.php(47): redirect()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Login\Login->index()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

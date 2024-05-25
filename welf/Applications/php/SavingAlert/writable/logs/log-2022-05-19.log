@@ -1,0 +1,331 @@
+CRITICAL - 2022-05-19 00:15:55 --> require(account_menu): failed to open stream: No such file or directory
+#0 /home/welf/Applications/php/Welfarearo/app/Views/profile_page.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/app/Views/profile_page.php(18): require()
+#2 /home/welf/Applications/php/Welfarearo/system/View/View.php(210): include('/home/welf/Appl...')
+#3 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /home/welf/Applications/php/Welfarearo/app/Controllers/Profile.php(11): view()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Profile->index()
+#7 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-19 00:16:12 --> require(account_menu): failed to open stream: No such file or directory
+#0 /home/welf/Applications/php/Welfarearo/app/Views/profile_page.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/app/Views/profile_page.php(18): require()
+#2 /home/welf/Applications/php/Welfarearo/system/View/View.php(210): include('/home/welf/Appl...')
+#3 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#5 /home/welf/Applications/php/Welfarearo/app/Controllers/Profile.php(11): view()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Profile->index()
+#7 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-05-19 01:16:06 --> syntax error, unexpected ')'
+#0 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Profile.php(19): view()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Profile->index()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 01:16:26 --> syntax error, unexpected ')'
+#0 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Profile.php(19): view()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Profile->index()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 01:22:39 --> syntax error, unexpected '<'
+#0 /home/welf/Applications/php/Welfarearo/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:40:52 --> syntax error, unexpected 'if' (T_IF)
+#0 /home/welf/Applications/php/Welfarearo/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:43:19 --> syntax error, unexpected 'if' (T_IF)
+#0 /home/welf/Applications/php/Welfarearo/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:43:44 --> syntax error, unexpected 'if' (T_IF)
+#0 /home/welf/Applications/php/Welfarearo/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:44:11 --> syntax error, unexpected '}'
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Profile.php(10): helper()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(809): App\Controllers\Profile->__construct()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 02:55:03 --> file_get_contents(http://sms.ozonedesk.com/api/v1/send.php?user_id=100323&amp;api_key=ozone94131005sms&amp;sender_id=Shuja&amp;to=0777555527&amp;message=WelfeareAro OTP Code - 386717): failed to open stream: HTTP request failed! HTTP/1.1 400 Bad Request
+
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/app/Helpers/shuja_helper.php(124): file_get_contents()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Profile.php(42): send_mobile_otp()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Profile->verify_phone()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 03:00:02 --> A non-numeric value encountered
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Profile.php(44): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Profile->verify_phone()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 03:57:12 --> Undefined variable: db
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Profile.php(80): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Profile->confirm_otp()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 06:14:46 --> Undefined index: status
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(40): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->index()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 07:59:13 --> Undefined index: file
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/SubmitDonation.php(46): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\SubmitDonation->submit_donation()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 08:33:06 --> Undefined index: file
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/SubmitDonation.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\SubmitDonation->submit_donation()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 08:33:25 --> Undefined index: file
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/SubmitDonation.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\SubmitDonation->submit_donation()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 08:34:05 --> Undefined index: file
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/SubmitDonation.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\SubmitDonation->submit_donation()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 08:39:38 --> Undefined index: file
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/SubmitDonation.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\SubmitDonation->submit_donation()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 08:39:48 --> Undefined index: file
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/SubmitDonation.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\SubmitDonation->submit_donation()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 08:43:36 --> Undefined index: file
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/SubmitDonation.php(50): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\SubmitDonation->submit_donation()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 08:44:19 --> Undefined index: badu_have
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/SubmitDonation.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\SubmitDonation->submit_donation()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 09:05:48 --> Undefined variable: requester_id
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/ClaimDonation.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\ClaimDonation->index()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 09:06:09 --> Undefined variable: requester_id
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/ClaimDonation.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\ClaimDonation->index()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 09:21:49 --> Undefined index: badu_have
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/SubmitDonation.php(48): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\SubmitDonation->submit_donation()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 09:23:40 --> Call to undefined function App\Controllers\is_user_logged()
+#0 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\History->index()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-19 20:48:53 --> Undefined property: stdClass::$donation_type
+#0 /home/welf/Applications/php/Welfarearo/app/Views/history.php(168): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/View/View.php(210): include('/home/welf/Appl...')
+#2 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/welf/Applications/php/Welfarearo/app/Controllers/History.php(18): view()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\History->index()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-19 21:17:43 --> syntax error, unexpected ''' (T_CONSTANT_ENCAPSED_STRING)
+#0 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/History.php(18): view()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\History->index()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-19 22:43:55 --> Call to undefined function get_user_info()
+#0 /home/welf/Applications/php/Welfarearo/system/View/View.php(210): include()
+#1 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /home/welf/Applications/php/Welfarearo/app/Controllers/History.php(18): view()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\History->index()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 22:44:58 --> Call to undefined function get_user_info()
+#0 /home/welf/Applications/php/Welfarearo/system/View/View.php(210): include()
+#1 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /home/welf/Applications/php/Welfarearo/app/Controllers/History.php(18): view()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\History->index()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 22:46:32 --> Call to undefined function get_user_info()
+#0 /home/welf/Applications/php/Welfarearo/system/View/View.php(210): include()
+#1 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /home/welf/Applications/php/Welfarearo/app/Controllers/History.php(18): view()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\History->index()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 22:47:04 --> Call to undefined function get_user_info()
+#0 /home/welf/Applications/php/Welfarearo/system/View/View.php(210): include()
+#1 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /home/welf/Applications/php/Welfarearo/app/Controllers/History.php(18): view()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\History->index()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 22:49:42 --> Call to undefined function get_user_info()
+#0 /home/welf/Applications/php/Welfarearo/system/View/View.php(210): include()
+#1 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /home/welf/Applications/php/Welfarearo/app/Controllers/History.php(18): view()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\History->index()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 22:50:37 --> Call to undefined function get_user_info()
+#0 /home/welf/Applications/php/Welfarearo/system/View/View.php(210): include()
+#1 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /home/welf/Applications/php/Welfarearo/app/Controllers/History.php(18): view()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\History->index()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 22:51:41 --> syntax error, unexpected '}', expecting end of file
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/History.php(9): helper()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(809): App\Controllers\History->__construct()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-19 22:52:07 --> Undefined variable: fr_r_user_name
+#0 /home/welf/Applications/php/Welfarearo/app/Views/history.php(182): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/View/View.php(210): include('/home/welf/Appl...')
+#2 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/welf/Applications/php/Welfarearo/app/Controllers/History.php(18): view()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\History->index()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-19 22:52:46 --> Undefined variable: fr_r_user_name
+#0 /home/welf/Applications/php/Welfarearo/app/Views/history.php(182): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/View/View.php(210): include('/home/welf/Appl...')
+#2 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/welf/Applications/php/Welfarearo/app/Controllers/History.php(18): view()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\History->index()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-05-19 22:54:07 --> Object of class stdClass could not be converted to string
+#0 /home/welf/Applications/php/Welfarearo/system/View/View.php(210): include()
+#1 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /home/welf/Applications/php/Welfarearo/app/Controllers/History.php(18): view()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\History->index()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 23:29:52 --> Object of class stdClass could not be converted to string
+#0 /home/welf/Applications/php/Welfarearo/system/View/View.php(210): include()
+#1 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#3 /home/welf/Applications/php/Welfarearo/app/Controllers/History.php(18): view()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\History->index()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#7 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-05-19 23:58:24 --> Undefined variable: color_v
+#0 /home/welf/Applications/php/Welfarearo/app/Views/history.php(243): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/View/View.php(210): include('/home/welf/Appl...')
+#2 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/welf/Applications/php/Welfarearo/app/Controllers/History.php(18): view()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\History->index()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

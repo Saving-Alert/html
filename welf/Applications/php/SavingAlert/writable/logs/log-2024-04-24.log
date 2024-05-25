@@ -1,0 +1,27 @@
+CRITICAL - 2024-04-24 12:14:00 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/app/Helpers/shuja_helper.php(128): file_get_contents()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Profile.php(82): send_mobile_otp()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Profile->verify_phone()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-04-24 12:14:45 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/app/Helpers/shuja_helper.php(128): file_get_contents()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Profile.php(82): send_mobile_otp()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Profile->verify_phone()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-04-24 14:08:53 --> file_get_contents(): php_network_getaddresses: getaddrinfo failed: Name or service not known
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/app/Helpers/shuja_helper.php(128): file_get_contents()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Profile.php(82): send_mobile_otp()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Profile->verify_phone()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

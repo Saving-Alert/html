@@ -1,0 +1,33 @@
+CRITICAL - 2024-05-23 16:18:47 --> Undefined property: stdClass::$blood_group
+#0 /var/www/html/welf/Applications/php/SavingAlert/app/Views/requests.php(377): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/welf/Applications/php/SavingAlert/system/View/View.php(210): include('...')
+#2 /var/www/html/welf/Applications/php/SavingAlert/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/welf/Applications/php/SavingAlert/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/welf/Applications/php/SavingAlert/app/Controllers/Requests.php(15): view()
+#5 /var/www/html/welf/Applications/php/SavingAlert/system/CodeIgniter.php(832): App\Controllers\Requests->index()
+#6 /var/www/html/welf/Applications/php/SavingAlert/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/welf/Applications/php/SavingAlert/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/welf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-23 22:43:19 --> Undefined property: stdClass::$blood_group
+#0 /var/www/html/welf/Applications/php/SavingAlert/app/Views/requests.php(377): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/welf/Applications/php/SavingAlert/system/View/View.php(210): include('...')
+#2 /var/www/html/welf/Applications/php/SavingAlert/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/welf/Applications/php/SavingAlert/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/welf/Applications/php/SavingAlert/app/Controllers/Requests.php(15): view()
+#5 /var/www/html/welf/Applications/php/SavingAlert/system/CodeIgniter.php(832): App\Controllers\Requests->index()
+#6 /var/www/html/welf/Applications/php/SavingAlert/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/welf/Applications/php/SavingAlert/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/welf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-23 22:43:26 --> Undefined property: stdClass::$blood_group
+#0 /var/www/html/welf/Applications/php/SavingAlert/app/Views/requests.php(377): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /var/www/html/welf/Applications/php/SavingAlert/system/View/View.php(210): include('...')
+#2 /var/www/html/welf/Applications/php/SavingAlert/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /var/www/html/welf/Applications/php/SavingAlert/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /var/www/html/welf/Applications/php/SavingAlert/app/Controllers/Requests.php(15): view()
+#5 /var/www/html/welf/Applications/php/SavingAlert/system/CodeIgniter.php(832): App\Controllers\Requests->index()
+#6 /var/www/html/welf/Applications/php/SavingAlert/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /var/www/html/welf/Applications/php/SavingAlert/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /var/www/html/welf/public/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

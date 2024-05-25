@@ -1,0 +1,50 @@
+ERROR - 2024-05-08 19:41:54 --> Unknown column 'blood_group' in 'field list'
+CRITICAL - 2024-05-08 19:41:54 --> Unknown column 'blood_group' in 'field list'
+#0 /home/welf/Applications/php/Welfarearo/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/welf/Applications/php/Welfarearo/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/welf/Applications/php/Welfarearo/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/welf/Applications/php/Welfarearo/system/Database/BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query()
+#4 /home/welf/Applications/php/Welfarearo/app/Controllers/Profile.php(226): CodeIgniter\Database\BaseBuilder->update()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Profile->save_name_s()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2024-05-08 19:51:23 --> Column 'blood_group' cannot be null
+CRITICAL - 2024-05-08 19:51:23 --> Column 'blood_group' cannot be null
+#0 /home/welf/Applications/php/Welfarearo/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/welf/Applications/php/Welfarearo/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/welf/Applications/php/Welfarearo/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/welf/Applications/php/Welfarearo/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /home/welf/Applications/php/Welfarearo/app/Models/Account/DonationRequest.php(46): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/welf/Applications/php/Welfarearo/app/Controllers/RequestDonation.php(78): App\Models\DonationRequest->request_donation()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\RequestDonation->request_donation()
+#7 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-05-08 19:52:38 --> Column 'blood_group' cannot be null
+CRITICAL - 2024-05-08 19:52:38 --> Column 'blood_group' cannot be null
+#0 /home/welf/Applications/php/Welfarearo/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/welf/Applications/php/Welfarearo/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/welf/Applications/php/Welfarearo/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/welf/Applications/php/Welfarearo/system/Database/BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query()
+#4 /home/welf/Applications/php/Welfarearo/app/Models/Account/DonationRequest.php(46): CodeIgniter\Database\BaseBuilder->insert()
+#5 /home/welf/Applications/php/Welfarearo/app/Controllers/RequestDonation.php(78): App\Models\DonationRequest->request_donation()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\RequestDonation->request_donation()
+#7 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#8 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#9 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2024-05-08 20:53:40 --> Unknown column 'blood_group' in 'field list'
+CRITICAL - 2024-05-08 20:53:40 --> Unknown column 'blood_group' in 'field list'
+#0 /home/welf/Applications/php/Welfarearo/system/Database/MySQLi/Connection.php(292): mysqli->query()
+#1 /home/welf/Applications/php/Welfarearo/system/Database/BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute()
+#2 /home/welf/Applications/php/Welfarearo/system/Database/BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery()
+#3 /home/welf/Applications/php/Welfarearo/system/Database/BaseBuilder.php(1913): CodeIgniter\Database\BaseConnection->query()
+#4 /home/welf/Applications/php/Welfarearo/app/Controllers/Profile.php(226): CodeIgniter\Database\BaseBuilder->update()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Profile->save_name_s()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

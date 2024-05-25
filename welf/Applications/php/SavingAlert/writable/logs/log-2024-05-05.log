@@ -1,0 +1,61 @@
+CRITICAL - 2024-05-05 00:49:34 --> syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Requests.php(15): view()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Requests->index()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-05-05 00:50:01 --> syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Requests.php(15): view()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Requests->index()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-05-05 00:50:06 --> syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Requests.php(15): view()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Requests->index()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-05-05 00:50:16 --> syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Requests.php(15): view()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Requests->index()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-05-05 00:50:25 --> syntax error, unexpected '">' (T_CONSTANT_ENCAPSED_STRING), expecting ';' or ','
+#0 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Requests.php(15): view()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Requests->index()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-05-05 01:45:33 --> Undefined index: blood_group
+#0 /home/welf/Applications/php/Welfarearo/app/Models/Account/DonationRequest.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/app/Controllers/RequestDonation.php(78): App\Models\DonationRequest->request_donation()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\RequestDonation->request_donation()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2024-05-05 01:45:55 --> Undefined index: blood_group
+#0 /home/welf/Applications/php/Welfarearo/app/Models/Account/DonationRequest.php(13): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/app/Controllers/RequestDonation.php(78): App\Models\DonationRequest->request_donation()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\RequestDonation->request_donation()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

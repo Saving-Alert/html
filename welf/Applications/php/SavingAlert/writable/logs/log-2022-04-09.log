@@ -1,0 +1,322 @@
+CRITICAL - 2022-04-09 02:27:01 --> Class 'App\Controllers\Backend\BaseController' not found
+#0 /home/welf/Applications/php/Welfarearo/system/Router/Router.php(518): include_once()
+#1 /home/welf/Applications/php/Welfarearo/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-09 02:29:10 --> Class 'App\Controllers\Backend\BaseController' not found
+#0 /home/welf/Applications/php/Welfarearo/system/Router/Router.php(518): include_once()
+#1 /home/welf/Applications/php/Welfarearo/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-09 02:32:20 --> Class 'App\Controllers\Backend\BaseController' not found
+#0 /home/welf/Applications/php/Welfarearo/system/Router/Router.php(518): include_once()
+#1 /home/welf/Applications/php/Welfarearo/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-09 03:11:56 --> Undefined variable: request
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(18): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-09 03:52:15 --> Undefined property: App\Controllers\Backend\Login::$validation
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-09 03:55:04 --> Undefined variable: rules
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-09 03:58:25 --> syntax error, unexpected ';'
+#0 /home/welf/Applications/php/Welfarearo/system/Router/Router.php(175): CodeIgniter\Router\Router->autoRoute()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(726): CodeIgniter\Router\Router->handle()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-09 03:58:35 --> Undefined variable: validation
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(25): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-09 04:07:34 --> Undefined property: App\Controllers\Backend\Login::$form_validation
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(26): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-09 14:30:38 --> Object of class CodeIgniter\Database\MySQLi\Result could not be converted to string
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(33): App\Models\LoginModel->login_me()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-09 14:37:16 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$num_rows
+#0 /home/welf/Applications/php/Welfarearo/app/Models/Backend/LoginModel.php(19): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(33): App\Models\LoginModel->login_me()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-09 14:40:10 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(33): App\Models\LoginModel->login_me()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-09 14:46:23 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::num_rows()
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(33): App\Models\LoginModel->login_me()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-09 14:48:31 --> Call to undefined method CodeIgniter\Database\MySQLi\Connection::select()
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(33): App\Models\LoginModel->login_me()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-09 15:06:14 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::resultArray()
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(33): App\Models\LoginModel->login_me()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-09 15:27:51 --> Call to a member function num_rows() on array
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(33): App\Models\LoginModel->login_me()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-09 15:28:18 --> Call to a member function countAllResults() on array
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(33): App\Models\LoginModel->login_me()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-09 15:29:06 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(33): App\Models\LoginModel->login_me()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-09 15:39:26 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::countAllResults()
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(33): App\Models\LoginModel->login_me()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-09 15:59:28 --> Undefined property: CodeIgniter\Database\MySQLi\Result::$getRow
+#0 /home/welf/Applications/php/Welfarearo/app/Models/Backend/LoginModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(33): App\Models\LoginModel->login_me()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-09 16:00:33 --> Undefined property: CodeIgniter\Database\MySQLi\Builder::$getRow
+#0 /home/welf/Applications/php/Welfarearo/app/Models/Backend/LoginModel.php(22): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(33): App\Models\LoginModel->login_me()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-09 16:26:38 --> syntax error, unexpected ';'
+#0 /home/welf/Applications/php/Welfarearo/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /home/welf/Applications/php/Welfarearo/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /home/welf/Applications/php/Welfarearo/system/Config/Factories.php(141): class_exists()
+#5 /home/welf/Applications/php/Welfarearo/system/Config/Factories.php(106): CodeIgniter\Config\Factories::locateClass()
+#6 /home/welf/Applications/php/Welfarearo/system/Common.php(780): CodeIgniter\Config\Factories::__callStatic()
+#7 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(33): model()
+#8 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#9 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-09 16:28:43 --> syntax error, unexpected ';'
+#0 /home/welf/Applications/php/Welfarearo/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /home/welf/Applications/php/Welfarearo/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /home/welf/Applications/php/Welfarearo/system/Config/Factories.php(141): class_exists()
+#5 /home/welf/Applications/php/Welfarearo/system/Config/Factories.php(106): CodeIgniter\Config\Factories::locateClass()
+#6 /home/welf/Applications/php/Welfarearo/system/Common.php(780): CodeIgniter\Config\Factories::__callStatic()
+#7 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(33): model()
+#8 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#9 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-09 16:30:41 --> syntax error, unexpected ';'
+#0 /home/welf/Applications/php/Welfarearo/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /home/welf/Applications/php/Welfarearo/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /home/welf/Applications/php/Welfarearo/system/Config/Factories.php(141): class_exists()
+#5 /home/welf/Applications/php/Welfarearo/system/Config/Factories.php(106): CodeIgniter\Config\Factories::locateClass()
+#6 /home/welf/Applications/php/Welfarearo/system/Common.php(780): CodeIgniter\Config\Factories::__callStatic()
+#7 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(33): model()
+#8 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#9 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-09 16:32:05 --> syntax error, unexpected '$data' (T_VARIABLE)
+#0 /home/welf/Applications/php/Welfarearo/system/Autoloader/Autoloader.php(241): CodeIgniter\Autoloader\Autoloader->includeFile()
+#1 /home/welf/Applications/php/Welfarearo/system/Autoloader/Autoloader.php(219): CodeIgniter\Autoloader\Autoloader->loadInNamespace()
+#2 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass()
+#3 [internal function]: spl_autoload_call()
+#4 /home/welf/Applications/php/Welfarearo/system/Config/Factories.php(141): class_exists()
+#5 /home/welf/Applications/php/Welfarearo/system/Config/Factories.php(106): CodeIgniter\Config\Factories::locateClass()
+#6 /home/welf/Applications/php/Welfarearo/system/Common.php(780): CodeIgniter\Config\Factories::__callStatic()
+#7 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(33): model()
+#8 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#9 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#10 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#11 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#12 {main}
+CRITICAL - 2022-04-09 16:40:42 --> Undefined property: App\Controllers\Backend\Login::$load
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(36): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-09 16:41:40 -->  route cannot be found while reverse-routing.
+#0 /home/welf/Applications/php/Welfarearo/system/HTTP/RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute()
+#1 /home/welf/Applications/php/Welfarearo/system/Common.php(832): CodeIgniter\HTTP\RedirectResponse->route()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(40): redirect()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-09 17:00:13 --> Use of undefined constant log_r - assumed 'log_r' (this will throw an Error in a future version of PHP)
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(37): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-04-09 17:00:32 --> syntax error, unexpected 'base_url' (T_STRING), expecting ';' or ','
+#0 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(39): view()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-09 17:01:13 --> syntax error, unexpected 'base_url' (T_STRING), expecting ';' or ','
+#0 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(39): view()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-09 17:02:19 --> Use of undefined constant Backend - assumed 'Backend' (this will throw an Error in a future version of PHP)
+#0 /home/welf/Applications/php/Welfarearo/app/Views/backend/login.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/View/View.php(210): include('/home/welf/Appl...')
+#2 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(39): view()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-09 17:03:04 --> Use of undefined constant Backend - assumed 'Backend' (this will throw an Error in a future version of PHP)
+#0 /home/welf/Applications/php/Welfarearo/app/Views/backend/login.php(1): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/View/View.php(210): include('/home/welf/Appl...')
+#2 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#4 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(39): view()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#6 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#7 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#8 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-09 17:03:51 --> syntax error, unexpected 'base_url' (T_STRING), expecting ';' or ','
+#0 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(39): view()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-09 17:05:36 --> syntax error, unexpected 'base_url' (T_STRING), expecting ';' or ','
+#0 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(39): view()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-09 19:10:11 --> syntax error, unexpected 'error' (T_STRING), expecting ';' or ','
+#0 /home/welf/Applications/php/Welfarearo/system/View/View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 /home/welf/Applications/php/Welfarearo/system/Common.php(1089): CodeIgniter\View\View->render()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(10): view()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->index()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-09 19:11:02 --> Trying to get property 'password' of non-object
+#0 /home/welf/Applications/php/Welfarearo/app/Models/Backend/LoginModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(32): App\Models\LoginModel->login_me()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-09 19:19:18 --> Trying to get property 'password' of non-object
+#0 /home/welf/Applications/php/Welfarearo/app/Models/Backend/LoginModel.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(32): App\Models\LoginModel->login_me()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-04-09 19:20:15 --> Call to undefined method CodeIgniter\Database\MySQLi\Result::ResultArray()
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Backend/Login.php(32): App\Models\LoginModel->login_me()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Backend\Login->login_pro()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

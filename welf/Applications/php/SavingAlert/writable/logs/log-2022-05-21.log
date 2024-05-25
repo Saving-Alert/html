@@ -1,0 +1,99 @@
+CRITICAL - 2022-05-21 04:21:16 --> You must set the database table to be used with your query.
+#0 /home/welf/Applications/php/Welfarearo/system/Model.php(545): CodeIgniter\Database\BaseConnection->table()
+#1 /home/welf/Applications/php/Welfarearo/system/Model.php(722): CodeIgniter\Model->builder()
+#2 /home/welf/Applications/php/Welfarearo/app/Controllers/RequestDonation.php(78): CodeIgniter\Model->__call()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\RequestDonation->request_donation()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#5 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#6 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-05-21 04:23:36 --> Undefined variable: food_type
+#0 /home/welf/Applications/php/Welfarearo/app/Models/Account/DonationRequest.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/app/Controllers/RequestDonation.php(78): App\Models\DonationRequest->request_donation()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\RequestDonation->request_donation()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#4 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#5 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}
+CRITICAL - 2022-05-21 07:40:49 --> Call to undefined function App\Controllers\is_user_logged()
+#0 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Requests->show_req()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-05-21 22:46:02 --> Undefined variable: postData
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Contact.php(21): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Contact->contact_xyz()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 22:46:22 --> Undefined index: form_email
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Contact.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Contact->contact_xyz()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 22:47:33 --> Undefined index: form_email
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Contact.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Contact->contact_xyz()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 22:48:35 --> Undefined index: from_email
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Contact.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Contact->contact_xyz()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 22:51:37 --> Undefined index: from_email
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Contact.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Contact->contact_xyz()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 22:52:27 --> Undefined index: from_email
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Contact.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Contact->contact_xyz()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 22:54:45 --> Undefined index: from_email
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Contact.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Contact->contact_xyz()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 22:56:25 --> Undefined index: from_email
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Contact.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Contact->contact_xyz()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 22:59:34 --> Undefined index: from_name
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Contact.php(31): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Contact->contact_xyz()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 23:07:01 --> Undefined index: from_email
+#0 /home/welf/Applications/php/Welfarearo/app/Controllers/Contact.php(23): CodeIgniter\Debug\Exceptions->errorHandler()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Contact->contact_xyz()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#3 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#4 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-05-21 23:23:30 --> Call to undefined function App\Controllers\mail_me()
+#0 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(832): App\Controllers\Contact->contact_xyz()
+#1 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController()
+#2 /home/welf/Applications/php/Welfarearo/system/CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest()
+#3 /home/welf/domains/welfarearo/index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
